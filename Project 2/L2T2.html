@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="L2T2.css">
+</head>
+<body>
+    <header>
+        <h1>Dhruv Sharma</h1>
+        <img src="C:\Users\dhruv\OneDrive\Desktop\pic.png" alt="Profile Picture">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h1>About Me</h1>
+        <h2>
+            Hey!<br>
+            I'm Dhruv Sharma, a passionate FullStack developer<br>
+            Currently Studying Btech CSE with Spz in FullStack<br>
+        </h2>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <label>HTML</label>
+            <div class="skill-bar" style="width: 100%;"></div>
+        </div>
+        <div class="skill">
+            <label>CSS</label>
+            <div class="skill-bar" style="width: 100%;"></div>
+        </div>
+        <div class="skill">
+            <label>JavaScript</label>
+            <div class="skill-bar" style="width: 85%;"></div>
+        </div>
+        <div class="skill">
+            <label>Node JS</label>
+            <div class="skill-bar" style="width: 70%"></div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3><b>First Project</b></h3>
+            <p>I was Intern With Shree Dev Charitable trust To help them making there website Through Wordpress</p>
+        </div>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <button onclick="openResume()">Download Resume</button>
+        <h2>Linkedin</h2>
+        <button onclick="window.location.href='https://www.linkedin.com/in/dhruv-sharma-728813247/'">Open Linkedin</button>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: dhruvsharma9591@gmail.com</p>
+        <p>Phone: +91 904153-39234</p>
+    </section>
+    <script>
+        function openResume() {
+    window.open('Dhruv_Sharma_CV.pdf', '_blank');
+}
+    </script>
+</body>
+</html>
